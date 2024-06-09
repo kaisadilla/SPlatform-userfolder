@@ -1,0 +1,16 @@
+{
+    "type": "tile",
+    "name": "Panel (blue, right)",
+    "category": "Panels",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "panel_blue_right",
+    "animation": {
+        "type": "static"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "Tile",
+    "name": "Brick block",
+    "category": "Blocks",
+    "traits": [
+        {
+            "name": "breakable",
+            "parameters": {
+                "breakWhenPunched": true,
+                "breakWhenSpin": true,
+                "breakWhenHitByShell": true,
+                "breakWhenHitByRaccoonTail": true,
+                "breakWhenHitByPlayerFireball": false,
+                "breakWhenHitByEnemyFireball": false,
+                "isReplacedWhenBroken": false,
+                "replacementWhenBroken": null
+            },
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "block_brick",
+    "animation": {
+        "type": "static"
+    }
+}

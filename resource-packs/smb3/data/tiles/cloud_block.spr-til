@@ -1,0 +1,21 @@
+{
+    "type": "Tile",
+    "name": "Cloud block",
+    "category": "Blocks",
+    "traits": [
+        {
+            "name": "platform",
+            "parameters": {
+                "collideFromTop": true,
+                "collideFromBottom": false,
+                "collideFromLeft": false,
+                "collideFromRight": false
+            },
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "block_cloud",
+    "animation": {
+        "type": "static"
+    }
+}

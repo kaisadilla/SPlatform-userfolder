@@ -1,0 +1,16 @@
+{
+    "type": "tile",
+    "name": "Level end",
+    "category": "Special",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "level_end",
+    "animation": {
+        "type": "static"
+    }
+}

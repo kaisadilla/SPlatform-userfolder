@@ -1,0 +1,16 @@
+{
+    "type": "Tile",
+    "name": "Bush (top right covered)",
+    "category": "Background",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "bush_top_right_covered",
+    "animation": {
+        "type": "static"
+    }
+}

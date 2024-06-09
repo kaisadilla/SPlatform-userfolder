@@ -1,0 +1,16 @@
+{
+    "type": "Tile",
+    "name": "Bush (small)",
+    "category": "Background",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "bush_small",
+    "animation": {
+        "type": "static"
+    }
+}

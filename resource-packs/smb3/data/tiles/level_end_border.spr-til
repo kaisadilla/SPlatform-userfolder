@@ -1,0 +1,16 @@
+{
+    "type": "tile",
+    "name": "Level end border",
+    "category": "Special",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "level_end_border",
+    "animation": {
+        "type": "static"
+    }
+}

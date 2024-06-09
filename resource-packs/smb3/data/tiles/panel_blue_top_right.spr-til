@@ -1,0 +1,21 @@
+{
+    "type": "tile",
+    "name": "Panel (blue, top right)",
+    "category": "Panels",
+    "traits": [
+        {
+            "name": "platform",
+            "parameters": {
+                "collideFromTop": true,
+                "collideFromBottom": false,
+                "collideFromLeft": false,
+                "collideFromRight": false
+            },
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "panel_blue_top_right",
+    "animation": {
+        "type": "static"
+    }
+}

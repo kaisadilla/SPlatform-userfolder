@@ -1,0 +1,96 @@
+{
+    "type": "Tile",
+    "name": "Question block",
+    "category": "Blocks",
+    "traits": [
+        {
+            "name": "block",
+            "parameters": {
+                "isHidden": false
+            },
+            "configurableParameters": [
+                "isHidden"
+            ]
+        },
+        {
+            "name": "rewardBlock",
+            "parameters": {
+                "rewardType": "coin",
+                "reward": null,
+                "smallPlayerHasDifferentReward": false,
+                "smallPlayerReward": null,
+                "maxHits": 1,
+                "maxTime": 0,
+                "waitForFinalHitBeforeBecomingEmpty": false,
+                "hasBonusForReachingMaxHits": false,
+                "bonusForReachingMaxHits": null,
+                "isReplacedWhenEmptied": true,
+                "replacementWhenEmptied": "empty_block",
+                "revertToCoinAfterFirstHit": true,
+                "triggerWhenPunched": true,
+                "triggerWhenSpin": true,
+                "triggerWhenHitByShell": true,
+                "triggerWhenHitByRaccoonTail": true,
+                "triggerWhenHitByPlayerFireball": false,
+                "triggerWhenHitByEnemyFireball": false
+            },
+            "configurableParameters": [
+                "rewardType",
+                "reward",
+                "smallPlayerHasDifferentReward",
+                "smallPlayerReward",
+                "maxHits",
+                "maxTime",
+                "hasBonusForReachingMaxHits",
+                "bonusForReachingMaxHits"
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Single coin",
+            "parameters": {
+                "rewardType": "coin",
+                "reward": null,
+                "smallPlayerHasDifferentReward": false,
+                "smallPlayerReward": null,
+                "maxHits": 1,
+                "maxTime": 0,
+                "hasBonusForReachingMaxHits": false,
+                "bonusForReachingMaxHits": null
+            }
+        },
+        {
+            "name": "Super mushroom",
+            "parameters": {
+                "rewardType": "entity",
+                "reward": "super_mushroom",
+                "smallPlayerHasDifferentReward": true,
+                "smallPlayerReward": "super_mushroom",
+                "maxHits": 1,
+                "maxTime": 0,
+                "hasBonusForReachingMaxHits": false,
+                "bonusForReachingMaxHits": null
+            }
+        },
+        {
+            "name": "10-coin",
+            "parameters": {
+                "rewardType": "coin",
+                "reward": null,
+                "smallPlayerReward": null,
+                "maxHits": 10,
+                "maxTime": 5,
+                "hasBonusForReachingMaxHits": false,
+                "bonusForReachingMaxHits": null
+            }
+        }
+    ],
+    "spritesheet": "block_question",
+    "animation": {
+        "type": "dynamic",
+        "slices": [5, 1],
+        "frames": [0, 1, 2, 3],
+        "frameTimes": 0.15
+    }
+}

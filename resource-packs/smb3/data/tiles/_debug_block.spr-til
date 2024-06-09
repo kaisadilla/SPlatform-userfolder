@@ -1,0 +1,130 @@
+{
+    "type": "Tile",
+    "name": "Debug block",
+    "category": "Debug",
+    "traits": [
+        {
+            "name": "block",
+            "parameters": {
+                "isHidden": false
+            },
+            "configurableParameters": [
+                "isHidden"
+            ]
+        },
+        {
+            "name": "rewardBlock",
+            "parameters": {
+                "rewardType": "coin",
+                "reward": null,
+                "smallPlayerHasDifferentReward": false,
+                "smallPlayerReward": null,
+                "maxHits": 1,
+                "maxTime": 0,
+                "waitForFinalHitBeforeBecomingEmpty": false,
+                "hasBonusForReachingMaxHits": false,
+                "bonusForReachingMaxHits": null,
+                "isReplacedWhenEmptied": true,
+                "replacementWhenEmptied": "empty_block",
+                "revertToCoinAfterFirstHit": true,
+                "triggerWhenPunched": true,
+                "triggerWhenSpin": true,
+                "triggerWhenHitByShell": true,
+                "triggerWhenHitByRaccoonTail": true,
+                "triggerWhenHitByPlayerFireball": false,
+                "triggerWhenHitByEnemyFireball": false
+            },
+            "configurableParameters": [
+                "rewardType",
+                "reward",
+                "smallPlayerHasDifferentReward",
+                "smallPlayerReward",
+                "maxHits",
+                "maxTime",
+                "waitForFinalHitBeforeBecomingEmpty",
+                "hasBonusForReachingMaxHits",
+                "bonusForReachingMaxHits",
+                "isReplacedWhenEmptied",
+                "replacementWhenEmptied",
+                "revertToCoinAfterFirstHit",
+                "triggerWhenPunched",
+                "triggerWhenSpin",
+                "triggerWhenHitByShell",
+                "triggerWhenHitByRaccoonTail",
+                "triggerWhenHitByPlayerFireball",
+                "triggerWhenHitByEnemyFireball"
+            ]
+        },
+        {
+            "name": "breakable",
+            "parameters": {
+                "breakWhenPunched": true,
+                "breakWhenSpin": true,
+                "breakWhenHitByShell": true,
+                "breakWhenHitByRaccoonTail": true,
+                "breakWhenHitByPlayerFireball": false,
+                "breakWhenHitByEnemyFireball": false,
+                "isReplacedWhenBroken": false,
+                "replacementWhenBroken": null
+            },
+            "configurableParameters": [
+                "breakWhenPunched",
+                "breakWhenSpin",
+                "breakWhenHitByShell",
+                "breakWhenHitByRaccoonTail",
+                "breakWhenHitByPlayerFireball",
+                "breakWhenHitByEnemyFireball",
+                "isReplacedWhenBroken",
+                "replacementWhenBroken"
+            ]
+        },
+        {
+            "name": "platform",
+            "parameters": {
+                "collideFromTop": true,
+                "collideFromBottom": false,
+                "collideFromLeft": false,
+                "collideFromRight": false
+            },
+            "configurableParameters": [
+                "collideFromTop",
+                "collideFromBottom",
+                "collideFromLeft",
+                "collideFromRight"
+            ]
+        },
+        {
+            "name": "fall",
+            "parameters": {
+                "timeUntilFall": 1,
+                "shakeBeforeFall": true,
+                "shakeAfter": 0.2,
+                "resetWhenPlayerLeaves": true,
+                "regenerate": false,
+                "regenerationMode": null,
+                "regenerationTime": null,
+                "fallSpeed": 3,
+                "hasCollisionWhileFalling": false,
+                "canHitPlayers": false,
+                "damageToPlayer": null
+            },
+            "configurableParameters": [
+                "timeUntilFall",
+                "shakeBeforeFall",
+                "shakeAfter",
+                "resetWhenPlayerLeaves",
+                "regenerate",
+                "regenerationMode",
+                "regenerationTime",
+                "fallSpeed",
+                "hasCollisionWhileFalling",
+                "canHitPlayers",
+                "damageToPlayer"
+            ]
+        }
+    ],
+    "spritesheet": "_debug",
+    "animation": {
+        "type": "static"
+    }
+}

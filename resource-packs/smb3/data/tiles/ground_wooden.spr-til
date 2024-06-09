@@ -1,0 +1,16 @@
+{
+    "type": "tile",
+    "name": "Wooden ground",
+    "category": "Terrain",
+    "traits": [
+        {
+            "name": "terrain",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "ground_wooden",
+    "animation": {
+        "type": "static"
+    }
+}

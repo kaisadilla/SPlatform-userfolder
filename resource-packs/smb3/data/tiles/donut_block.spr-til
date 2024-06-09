@@ -1,0 +1,38 @@
+{
+    "type": "Tile",
+    "name": "Donut block",
+    "category": "Blocks",
+    "traits": [
+        {
+            "name": "platform",
+            "parameters": {
+                "collidesFromTop": true,
+                "collidesFromBottom": false,
+                "collidesFromLeft": false,
+                "collidesFromRight": false
+            },
+            "configurableParameters": []
+        },
+        {
+            "name": "fall",
+            "parameters": {
+                "timeUntilFall": 1,
+                "shakeBeforeFall": true,
+                "shakeAfter": 0.2,
+                "resetWhenPlayerLeaves": true,
+                "regenerate": false,
+                "regenerationMode": null,
+                "regenerationTime": null,
+                "fallSpeed": 3,
+                "hasCollisionWhileFalling": false,
+                "canHitPlayers": false,
+                "damageToPlayer": null
+            },
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "block_donut",
+    "animation": {
+        "type": "static"
+    }
+}

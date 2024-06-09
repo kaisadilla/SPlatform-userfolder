@@ -1,0 +1,16 @@
+{
+    "type": "Tile",
+    "name": "Bush (left)",
+    "category": "Background",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "bush_left",
+    "animation": {
+        "type": "static"
+    }
+}

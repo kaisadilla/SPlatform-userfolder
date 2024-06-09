@@ -1,0 +1,16 @@
+{
+    "type": "Tile",
+    "name": "Cloud 3 (top right)",
+    "category": "Background",
+    "traits": [
+        {
+            "name": "background",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": "cloud_3_top_right",
+    "animation": {
+        "type": "static"
+    }
+}
