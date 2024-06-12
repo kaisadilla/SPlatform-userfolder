@@ -1,0 +1,42 @@
+{
+    "type": "entity",
+    "subtype": "item",
+    "category": "Power-up",
+    "name": "Super mushroom",
+    "collidesWithTiles": true,
+    "collidesWithPlayers": false,
+    "collidesWithEntities": false,
+    "gravityScale": 0,
+    "traits": [
+        {
+            "id": "artificial_walk",
+            "parameters": {
+                "avoidsCliffs": false,
+                "horizontalSpeed": 80,
+                "verticalSpeed": 160
+            },
+            "configurableParameters": []
+        },
+        {
+            "id": "power_up",
+            "parameters": {
+                "powerUpType": "big",
+                "overridesBetterPowers": false
+            }
+        }
+    ],
+    "spritesheet": {
+        "name": "mushroom",
+        "sliceSize": [16, 16],
+        "slices": [1, 1]
+    },
+    "dimensions": {
+        "sprite": [16, 16],
+        "collider": [0, 0, 16, 16]
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
+    }
+}

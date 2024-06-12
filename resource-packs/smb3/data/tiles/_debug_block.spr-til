@@ -4,7 +4,7 @@
     "category": "Debug",
     "traits": [
         {
-            "name": "block",
+            "id": "block",
             "parameters": {
                 "isHidden": false
             },
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "name": "rewardBlock",
+            "id": "rewardBlock",
             "parameters": {
                 "rewardType": "coin",
                 "reward": null,
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "name": "breakable",
+            "id": "breakable",
             "parameters": {
                 "breakWhenPunched": true,
                 "breakWhenSpin": true,
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "name": "platform",
+            "id": "platform",
             "parameters": {
                 "collideFromTop": true,
                 "collideFromBottom": false,
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "name": "fall",
+            "id": "fall",
             "parameters": {
                 "timeUntilFall": 1,
                 "shakeBeforeFall": true,

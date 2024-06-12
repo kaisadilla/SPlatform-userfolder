@@ -4,7 +4,7 @@
     "category": "Blocks",
     "traits": [
         {
-            "name": "block",
+            "id": "block",
             "parameters": {
                 "isHidden": false
             },
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "name": "rewardBlock",
+            "id": "rewardBlock",
             "parameters": {
                 "rewardType": "coin",
                 "reward": null,

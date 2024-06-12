@@ -4,7 +4,7 @@
     "category": "Panels",
     "traits": [
         {
-            "name": "background",
+            "id": "background",
             "parameters": {},
             "configurableParameters": []
         }

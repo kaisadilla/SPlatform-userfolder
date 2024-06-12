@@ -1,16 +1,59 @@
 {
-    "name": "Red Goomba",
-    "behavior": "goomba",
-    "behaviorProperties": {
-        "avoidsCliffs": true,
-        "startingDirectionRight": false
-    },
-    "configurableProperties": [
-        "startingDirectionRight"
+    "type": "entity",
+    "subtype": "enemy",
+    "category": "Overworld",
+    "name": "Goomba (red)",
+    "collidesWithTiles": true,
+    "collidesWithPlayers": true,
+    "collidesWithEntities": true,
+    "gravityScale": 1,
+    "traits": [
+        {
+            "id": "walk",
+            "parameters": {
+                "avoidsCliffs": true,
+                "walkingSpeed": 32
+            }
+        },
+        {
+            "id": "hurt_player",
+            "parameters": {
+                "damageType": "regular",
+                "hurtFromTop": false,
+                "hurtFromBottom": true,
+                "hurtFromLeft": true,
+                "hurtFromRight": true
+            }
+        },
+        {
+            "id": "killable",
+            "parameters": {
+                "damageFromStomp": "regular",
+                "damageFromFireball": "fatal"
+            },
+            "stateAnimations": {
+                "dead": "dead"
+            }
+        }
     ],
-    "sprite": "goomba_red",
+    "spritesheet": {
+        "name": "goomba_red",
+        "sliceSize": [16, 16],
+        "slices": [3, 1]
+    },
     "dimensions": {
         "sprite": [16, 16],
         "collider": [0, 0, 16, 16]
+    },
+    "animations": {
+        "default": {
+            "type": "dynamic",
+            "frames": [0, 1],
+            "frameTimes": 0.2
+        },
+        "dead": {
+            "type": "static",
+            "frame": 2
+        }
     }
 }

@@ -1,15 +1,15 @@
 {
     "type": "Tile",
-    "name": "Cloud 3 (top right)",
+    "name": "Bush (top right)",
     "category": "Background",
     "traits": [
         {
-            "name": "background",
+            "id": "background",
             "parameters": {},
             "configurableParameters": []
         }
     ],
-    "spritesheet": "cloud_3_top_right",
+    "spritesheet": "bush_top_right",
     "animation": {
         "type": "static"
     }

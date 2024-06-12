@@ -4,7 +4,7 @@
     "category": "Terrain",
     "traits": [
         {
-            "name": "terrain",
+            "id": "terrain",
             "parameters": {},
             "configurableParameters": []
         }

@@ -4,7 +4,7 @@
     "category": "Blocks",
     "traits": [
         {
-            "name": "platform",
+            "id": "platform",
             "parameters": {
                 "collidesFromTop": true,
                 "collidesFromBottom": false,
@@ -14,7 +14,7 @@
             "configurableParameters": []
         },
         {
-            "name": "fall",
+            "id": "fall",
             "parameters": {
                 "timeUntilFall": 1,
                 "shakeBeforeFall": true,

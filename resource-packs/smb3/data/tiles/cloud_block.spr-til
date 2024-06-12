@@ -4,7 +4,7 @@
     "category": "Blocks",
     "traits": [
         {
-            "name": "platform",
+            "id": "platform",
             "parameters": {
                 "collideFromTop": true,
                 "collideFromBottom": false,

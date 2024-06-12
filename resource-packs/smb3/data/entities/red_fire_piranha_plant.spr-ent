@@ -1,0 +1,87 @@
+{
+    "type": "entity",
+    "subtype": "enemy",
+    "category": "Pipe",
+    "name": "Fire piranha plant (red)",
+    "collidesWithTiles": false,
+    "collidesWithPlayers": false,
+    "collidesWithEntities": false,
+    "gravityScale": 0,
+    "traits": [
+        {
+            "id": "move_and_fire",
+            "parameters": {
+                "bulletAmount": 1,
+                "minimumDistanceToActivate": 16,
+                "moveDirection": "up",
+                "distanceToMove": 32,
+                "timeToMove": 0.6,
+                "timeToFire": 1,
+                "timeBetweenBullets": null,
+                "timeBetweenMoves": 1.5
+            },
+            "configurableParameters": [],
+            "stateAnimations": {
+                "default": "default",
+                "lookUp": "lookUp",
+                "lookUpFire": "lookUpFire",
+                "lookDown": "lookDown",
+                "lookDownFire": "lookDownFire"
+            }
+        },
+        {
+            "id": "hurt_player",
+            "parameters": {
+                "damageType": "regular",
+                "hurtFromTop": true,
+                "hurtFromBottom": true,
+                "hurtFromLeft": true,
+                "hurtFromRight": true
+            }
+        },
+        {
+            "id": "killable",
+            "parameters": {
+                "damageFromStomp": "none",
+                "damageFromFireball": "true"
+            },
+            "stateAnimations": {
+                "dead": "default"
+            }
+        }
+    ],
+    "spritesheet": {
+        "name": "venus_fire_trap_red",
+        "sliceSize": [16, 32],
+        "slices": [4, 1]
+    },
+    "dimensions": {
+        "sprite": [16, 32],
+        "collider": [0, 0, 16, 32]
+    },
+    "animations": {
+        "default": {
+            "type": "dynamic",
+            "frames": [0, 1],
+            "frameTimes": 0.15
+        },
+        "lookUp": {
+            "type": "dynamic",
+            "frames": [0, 1],
+            "frameTimes": 0.15
+        },
+        "lookUpFire": {
+            "type": "static",
+            "frame": 1
+        },
+        "lookDown": {
+            "type": "dynamic",
+            "frames": [2, 3],
+            "frameTimes": 0.15
+        },
+        "lookDownFire": {
+            "type": "static",
+            "frame": 3
+        }
+    }
+}

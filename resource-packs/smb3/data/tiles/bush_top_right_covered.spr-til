@@ -1,10 +1,10 @@
 {
     "type": "Tile",
-    "name": "Bush (top right covered)",
+    "name": "Bush (top right, covered)",
     "category": "Background",
     "traits": [
         {
-            "name": "background",
+            "id": "background",
             "parameters": {},
             "configurableParameters": []
         }

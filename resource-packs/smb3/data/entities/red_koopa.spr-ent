@@ -2,7 +2,7 @@
     "type": "entity",
     "subtype": "enemy",
     "category": "Overworld",
-    "name": "Goomba (brown)",
+    "name": "Koopa (red)",
     "collidesWithTiles": true,
     "collidesWithPlayers": true,
     "collidesWithEntities": true,
@@ -11,7 +11,7 @@
         {
             "id": "walk",
             "parameters": {
-                "avoidsCliffs": false,
+                "avoidsCliffs": true,
                 "walkingSpeed": 32
             }
         },
@@ -34,16 +34,29 @@
             "stateAnimations": {
                 "dead": "dead"
             }
+        },
+        {
+            "id": "turn_into_shell",
+            "parameters": {
+                "shellSpeed": 192,
+                "secondsUntilReviveStart": 6,
+                "secondsUntilReviveEnd": 1
+            },
+            "stateAnimations": {
+                "stopped": "stoppedShell",
+                "moving": "movingShell",
+                "reviving": "reviving"
+            }
         }
     ],
     "spritesheet": {
-        "name": "goomba_brown",
-        "sliceSize": [16, 16],
-        "slices": [3, 1]
+        "name": "koopa_red",
+        "sliceSize": [18, 27],
+        "slices": [6, 1]
     },
     "dimensions": {
-        "sprite": [16, 16],
-        "collider": [0, 0, 16, 16]
+        "sprite": [18, 27],
+        "collider": [1, 11, 16, 16]
     },
     "animations": {
         "default": {
@@ -51,9 +64,19 @@
             "frames": [0, 1],
             "frameTimes": 0.2
         },
-        "dead": {
+        "stoppedShell": {
             "type": "static",
             "frame": 2
+        },
+        "movingShell": {
+            "type": "dynamic",
+            "frames": [2, 3, 4],
+            "frameTimes": 0.03
+        },
+        "reviving": {
+            "type": "dynamic",
+            "frames": [2, 5],
+            "frameTimes": 0.1
         }
     }
 }

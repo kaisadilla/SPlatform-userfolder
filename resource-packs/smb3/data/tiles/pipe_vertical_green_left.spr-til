@@ -1,15 +1,15 @@
 {
     "type": "Tile",
-    "name": "Cloud 3 (top right)",
-    "category": "Background",
+    "name": "Vertical pipe (green, left)",
+    "category": "Pipes",
     "traits": [
         {
-            "id": "background",
+            "id": "terrain",
             "parameters": {},
             "configurableParameters": []
         }
     ],
-    "spritesheet": "cloud_3_top_right",
+    "spritesheet": "pipe_vertical_green_left",
     "animation": {
         "type": "static"
     }
