@@ -13,8 +13,12 @@
             ]
         }
     ],
-    "spritesheet": "block_empty",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "block_empty"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

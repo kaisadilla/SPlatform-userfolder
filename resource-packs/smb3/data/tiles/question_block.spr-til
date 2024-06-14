@@ -86,11 +86,15 @@
             }
         }
     ],
-    "spritesheet": "block_question",
-    "animation": {
-        "type": "dynamic",
-        "slices": [5, 1],
-        "frames": [0, 1, 2, 3],
-        "frameTimes": 0.15
+    "spritesheet": {
+        "name": "block_question"
+    },
+    "animations": {
+        "default": {
+            "type": "dynamic",
+            "slices": [5, 1],
+            "frames": [0, 1, 2, 3],
+            "frameTimes": 0.15
+        }
     }
 }

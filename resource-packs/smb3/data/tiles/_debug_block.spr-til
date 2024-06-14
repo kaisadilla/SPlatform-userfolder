@@ -123,8 +123,12 @@
             ]
         }
     ],
-    "spritesheet": "_debug",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "_debug"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

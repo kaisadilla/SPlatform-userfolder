@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "ground_wooden_top",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "ground_wooden_top"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

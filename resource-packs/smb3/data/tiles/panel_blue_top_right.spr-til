@@ -14,8 +14,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "panel_blue_top_right",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "panel_blue_top_right"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

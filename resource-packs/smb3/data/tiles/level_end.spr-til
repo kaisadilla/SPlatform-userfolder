@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "level_end",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "level_end"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

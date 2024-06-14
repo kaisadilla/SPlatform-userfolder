@@ -13,8 +13,12 @@
             ]
         }
     ],
-    "spritesheet": "block_wooden",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "block_wooden"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

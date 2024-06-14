@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "pipe_vertical_green_notch_left",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "pipe_vertical_green_notch_left"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

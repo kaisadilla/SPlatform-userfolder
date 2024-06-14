@@ -18,8 +18,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "block_brick",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "block_brick"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

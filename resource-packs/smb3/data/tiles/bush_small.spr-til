@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "bush_small",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "bush_small"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

@@ -14,8 +14,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "block_cloud",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "block_cloud"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "level_end_border",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "level_end_border"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "panel_blue_bottom",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "panel_blue_bottom"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

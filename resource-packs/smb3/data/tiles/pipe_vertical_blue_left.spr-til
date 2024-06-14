@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "pipe_vertical_blue_left",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "pipe_vertical_blue_left"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

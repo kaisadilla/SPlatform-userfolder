@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "bush_right",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "bush_right"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

@@ -31,8 +31,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "block_donut",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "block_donut"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

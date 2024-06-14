@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "cloud_3_top_right",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "cloud_3_top_right"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }

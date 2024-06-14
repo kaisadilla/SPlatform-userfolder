@@ -9,8 +9,12 @@
             "configurableParameters": []
         }
     ],
-    "spritesheet": "bush_top_left_covered",
-    "animation": {
-        "type": "static"
+    "spritesheet": {
+        "name": "bush_top_left_covered"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
     }
 }
