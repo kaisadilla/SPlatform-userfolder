@@ -9,18 +9,18 @@
     "gravityScale": 0,
     "traits": [
         {
-            "id": "artificial_walk",
+            "id": "artificialMove",
             "parameters": {
-                "avoidsCliffs": false,
+                "avoidCliffs": false,
                 "horizontalSpeed": 80,
                 "verticalSpeed": 160
             },
             "configurableParameters": []
         },
         {
-            "id": "power_up",
+            "id": "powerUp",
             "parameters": {
-                "powerUpType": "big",
+                "powerUpType": "strong",
                 "overridesBetterPowers": false
             }
         }

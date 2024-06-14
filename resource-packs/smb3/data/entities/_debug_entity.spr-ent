@@ -1,0 +1,150 @@
+{
+    "type": "entity",
+    "subtype": "enemy",
+    "category": "Debug",
+    "name": "Debug entity",
+    "collidesWithTiles": true,
+    "collidesWithPlayers": true,
+    "collidesWithEntities": true,
+    "gravityScale": 1,
+    "traits": [
+        {
+            "id": "walk",
+            "parameters": {
+                "avoidCliffs": false,
+                "walkingSpeed": 32
+            },
+            "configurableParameters": [
+                "avoidCliffs",
+                "walkingSpeed"
+            ]
+        },
+        {
+            "id": "hurtPlayer",
+            "parameters": {
+                "damageType": "regular",
+                "hurtFromTop": false,
+                "hurtFromBottom": true,
+                "hurtFromLeft": true,
+                "hurtFromRight": true
+            },
+            "configurableParameters": [
+                "damageType",
+                "hurtFromTop",
+                "hurtFromBottom",
+                "hurtFromLeft",
+                "hurtFromRight"
+            ]
+        },
+        {
+            "id": "killable",
+            "parameters": {
+                "damageFromStomp": "regular",
+                "damageFromFireball": "fatal"
+            },
+            "configurableParameters": [
+                "damageFromStomp",
+                "damageFromFireball"
+            ],
+            "stateAnimations": {
+                "dead": "dead"
+            }
+        },
+        {
+            "id": "moveAndFire",
+            "parameters": {
+                "bulletAmount": 1,
+                "bulletDamageType": "regular",
+                "minimumDistanceToActivate": 16,
+                "moveDirection": "up",
+                "distanceToMove": 32,
+                "timeToMove": 0.6,
+                "timeToFire": 1,
+                "timeBetweenBullets": 0,
+                "timeBetweenMoves": 1.5
+            },
+            "configurableParameters": [
+                "bulletAmount",
+                "bulletDamageType",
+                "minimumDistanceToActivate",
+                "moveDirection",
+                "distanceToMove",
+                "timeToMove",
+                "timeToFire",
+                "timeBetweenBullets",
+                "timeBetweenMoves"
+            ],
+            "stateAnimations": {
+                "default": "default",
+                "lookUp": "lookUp",
+                "lookUpFire": "lookUpFire",
+                "lookDown": "lookDown",
+                "lookDownFire": "lookDownFire"
+            }
+        },
+        {
+            "id": "turnIntoShell",
+            "parameters": {
+                "shellSpeed": 192,
+                "revive": true,
+                "secondsUntilReviveStart": 6,
+                "secondsUntilReviveEnd": 1
+            },
+            "configurableParameters": [
+                "shellSpeed",
+                "revive",
+                "secondsUntilReviveStart",
+                "secondsUntilReviveEnd"
+            ],
+            "stateAnimations": {
+                "stopped": "stoppedShell",
+                "moving": "movingShell",
+                "reviving": "reviving"
+            }
+        },
+        {
+            "id": "artificialMove",
+            "parameters": {
+                "avoidCliffs": false,
+                "horizontalSpeed": 80,
+                "verticalSpeed": 160
+            },
+            "configurableParameters": [
+                "avoidCliffs",
+                "horizontalSpeed",
+                "verticalSpeed"
+            ]
+        },
+        {
+            "id": "powerUp",
+            "parameters": {
+                "powerUpType": "strong",
+                "overridesBetterPowers": false
+            },
+            "configurableParameters": [
+                "powerUpType",
+                "overridesBetterPowers"
+            ]
+        }
+    ],
+    "spritesheet": {
+        "name": "_debug",
+        "sliceSize": [16, 16],
+        "slices": [3, 1]
+    },
+    "dimensions": {
+        "sprite": [16, 16],
+        "collider": [0, 0, 16, 16]
+    },
+    "animations": {
+        "default": {
+            "type": "dynamic",
+            "frames": [0, 1],
+            "frameTimes": 0.2
+        },
+        "dead": {
+            "type": "static",
+            "frame": 2
+        }
+    }
+}

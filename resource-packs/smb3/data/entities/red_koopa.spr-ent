@@ -11,12 +11,12 @@
         {
             "id": "walk",
             "parameters": {
-                "avoidsCliffs": true,
+                "avoidCliffs": true,
                 "walkingSpeed": 32
             }
         },
         {
-            "id": "hurt_player",
+            "id": "hurtPlayer",
             "parameters": {
                 "damageType": "regular",
                 "hurtFromTop": false,
@@ -36,9 +36,10 @@
             }
         },
         {
-            "id": "turn_into_shell",
+            "id": "turnIntoShell",
             "parameters": {
                 "shellSpeed": 192,
+                "revive": true,
                 "secondsUntilReviveStart": 6,
                 "secondsUntilReviveEnd": 1
             },

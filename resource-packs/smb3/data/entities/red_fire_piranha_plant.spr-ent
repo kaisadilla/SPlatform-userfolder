@@ -9,15 +9,16 @@
     "gravityScale": 0,
     "traits": [
         {
-            "id": "move_and_fire",
+            "id": "moveAndFire",
             "parameters": {
                 "bulletAmount": 1,
+                "bulletDamageType": "regular",
                 "minimumDistanceToActivate": 16,
                 "moveDirection": "up",
                 "distanceToMove": 32,
                 "timeToMove": 0.6,
                 "timeToFire": 1,
-                "timeBetweenBullets": null,
+                "timeBetweenBullets": 0,
                 "timeBetweenMoves": 1.5
             },
             "configurableParameters": [],
@@ -30,7 +31,7 @@
             }
         },
         {
-            "id": "hurt_player",
+            "id": "hurtPlayer",
             "parameters": {
                 "damageType": "regular",
                 "hurtFromTop": true,
