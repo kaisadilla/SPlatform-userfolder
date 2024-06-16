@@ -1,5 +1,5 @@
 {
-    "type": "Tile",
+    "type": "tile",
     "name": "Question block",
     "category": "Blocks",
     "traits": [
@@ -87,12 +87,12 @@
         }
     ],
     "spritesheet": {
-        "name": "block_question"
+        "name": "block_question",
+        "slices": [4, 1]
     },
     "animations": {
         "default": {
             "type": "dynamic",
-            "slices": [5, 1],
             "frames": [0, 1, 2, 3],
             "frameTimes": 0.15
         }

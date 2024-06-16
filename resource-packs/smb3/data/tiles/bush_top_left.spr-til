@@ -1,5 +1,5 @@
 {
-    "type": "Tile",
+    "type": "tile",
     "name": "Bush (top left)",
     "category": "Background",
     "traits": [

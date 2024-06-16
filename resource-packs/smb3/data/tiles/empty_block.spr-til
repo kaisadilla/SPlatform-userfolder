@@ -1,5 +1,5 @@
 {
-    "type": "Tile",
+    "type": "tile",
     "name": "Empty block",
     "category": "Blocks",
     "traits": [

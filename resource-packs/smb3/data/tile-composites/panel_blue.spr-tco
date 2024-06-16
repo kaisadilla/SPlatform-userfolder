@@ -1,0 +1,17 @@
+{
+    "type": "tile_composite",
+    "name": "Blue panel",
+    "compositeType": "rectangle",
+    "tiles": {
+        "topLeft": "panel_blue_top_left",
+        "top": "panel_blue_top",
+        "topRight": "panel_blue_top_right",
+        "left": "panel_blue_left",
+        "center": "panel_blue",
+        "right": "panel_blue_right",
+        "bottomLeft": "panel_blue_bottom_left",
+        "bottom": "panel_blue_bottom",
+        "bottomRight": "panel_blue_bottom_right"
+    },
+    "minSize": [3, 3]
+}
