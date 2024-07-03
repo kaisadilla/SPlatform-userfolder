@@ -1,0 +1,20 @@
+{
+    "type": "tile",
+    "name": "Horizontal pipe notch (green, top left)",
+    "category": "Pipes",
+    "traits": [
+        {
+            "id": "terrain",
+            "parameters": {},
+            "configurableParameters": []
+        }
+    ],
+    "spritesheet": {
+        "name": "pipe_horizontal_green_notch_top_left"
+    },
+    "animations": {
+        "default": {
+            "type": "static"
+        }
+    }
+}
