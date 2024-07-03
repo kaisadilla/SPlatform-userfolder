@@ -1,0 +1,18 @@
+{
+    "type": "tile_composite",
+    "name": "Cloud 3",
+    "compositeType": "unit",
+    "thumbnailTile": "cloud_3_top",
+    "shape": [
+        [
+            "cloud_3_top_left",
+            "cloud_3_top",
+            "cloud_3_top_right"
+        ],
+        [
+            "cloud_3_bottom_left",
+            "cloud_3_bottom",
+            "cloud_3_bottom_right"
+        ]
+    ]
+}

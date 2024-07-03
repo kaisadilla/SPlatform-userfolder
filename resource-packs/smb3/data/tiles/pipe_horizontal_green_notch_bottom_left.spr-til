@@ -1,6 +1,6 @@
 {
     "type": "tile",
-    "name": "Vertical pipe notch (green, right)",
+    "name": "Horizontal pipe notch (green, bottom left)",
     "category": "Pipes",
     "traits": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "spritesheet": {
-        "name": "pipe_vertical_green_notch_right"
+        "name": "pipe_horizontal_green_notch_bottom_left"
     },
     "animations": {
         "default": {

@@ -1,0 +1,19 @@
+{
+    "type": "tile_composite",
+    "name": "Green pipe",
+    "compositeType": "line",
+    "thumbnailTile": "pipe_vertical_green_notch_top_left",
+    "lines": {
+        "up": {
+            "default": "pipe_vertical_green_left",
+            "topLeft": "pipe_vertical_green_notch_top_left",
+            "topRight": "pipe_vertical_green_notch_top_right",
+            "left": "pipe_vertical_green_left",
+            "right": "pipe_vertical_green_right",
+            "bottomLeft": "pipe_vertical_green_notch_bottom_left",
+            "bottomRight": "pipe_vertical_green_notch_bottom_right"
+        }
+    },
+    "thickness": 2,
+    "minLength": 1
+}
